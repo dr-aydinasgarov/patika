@@ -2,7 +2,7 @@ package Giris;
 
 import java.util.Scanner;
 
-public class Baslangic {
+public class KDV {
     static void main(String[] args) {
         double fiyat;
         Scanner deger = new Scanner(System.in);
