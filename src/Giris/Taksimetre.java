@@ -18,7 +18,8 @@ public class Taksimetre {
         sonuc = baslangic + km * kmbas;
 
         boolean TL = sonuc > 20;
-        String adalet = TL ? String.valueOf(sonuc) : "20";
+        String adalet = TL ? sonuc + "" : "20";
+        // burada boolean yazmayıb String'də TL nin yerinə birbaşa "sonuc > 20" yazmaq da olardı
         System.out.println("Ödenecek tutar: " + adalet + "TL");
     }
 }
