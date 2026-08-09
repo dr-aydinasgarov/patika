@@ -3,7 +3,7 @@ package Giris;
 
 import java.util.Scanner;
 
-public class Adi {
+public class NotenRechnung {
     static void main(String[] args) {
         int math, physhik, chemie, historie, programmierung;
         Scanner not = new Scanner(System.in);
