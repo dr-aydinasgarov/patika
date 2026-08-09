@@ -18,5 +18,6 @@ public class Baslangic {
         KDV = fiyat * 0.18;
         System.out.println("KDV'niz : " + KDV);
 
+
     }
 }
