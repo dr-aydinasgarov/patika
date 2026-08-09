@@ -2,7 +2,7 @@ package Giris;
 
 import java.util.Scanner;
 
-public class Hypotenus {
+public class Hypotenisus {
     static void main(String[] args) {
         int a, b;
         double c;
