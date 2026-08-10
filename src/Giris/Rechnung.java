@@ -28,10 +28,12 @@ public class Rechnung {
                 System.out.println("Antwort: " + (n1-n2));
                 break;
             case 3:
-                System.out.println("Antwort: " + (n1*n2));
+                String sfr = (n2 != 0) ? "Antwort: " + (n1*n2) : "Antwort: " + 0 ;
+                System.out.println(sfr);
                 break;
             case 4:
-                System.out.println("Antwort: " + (n1/n2));
+                String nul = (n2 != 0) ? "Antwort: " + (n1/n2) : "Antwort: " + 0;
+                System.out.println(nul);
                 break;
             default:
                 System.out.println("Error");
