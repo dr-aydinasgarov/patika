@@ -8,7 +8,7 @@ public class ArmstrongZahlen {
         double aa, dd;
 
         Scanner inp = new Scanner(System.in);
-        System.out.println("Geben Sie die Nummer ein: ");
+        System.out.print("Geben Sie die Nummer ein: ");
         a = inp.nextInt();
         aa = a;
         bb = a;
