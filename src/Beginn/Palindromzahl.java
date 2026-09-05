@@ -1,4 +1,4 @@
-package Beginn;
+package Giris;
 
 public class Palindromzahl {
     static String PalindromZahl(int Pal) {

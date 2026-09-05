@@ -1,4 +1,4 @@
-package Beginn;
+package Giris;
 
 public class RecursivFibonacci {
     static int f(int a){
